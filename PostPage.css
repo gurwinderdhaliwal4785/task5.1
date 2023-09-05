@@ -1,0 +1,101 @@
+/* Styling for the PostPage component */
+.post-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right, gray, gray);
+    background-size: 100% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  /* Post Type Selector */
+  .post-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .post-type span {
+    margin-right: 10px;
+  }
+  
+  .post-type-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post-type-btn.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Section Heading */
+  .section-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right, gray, gray);
+    background-size: 100% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  /* Post Type Description */
+  .post-type-description {
+    margin-bottom: 20px;
+  }
+  
+  .black-text {
+    color: black;
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-heading {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  /* Post Button */
+  .post-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .post-button:hover {
+    background-color: #0056b3;
+  }
+  
